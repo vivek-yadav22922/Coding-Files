@@ -8,7 +8,7 @@ public class printNaturalnum {
             System.out.println(1);
             return;
         }
-        pN(n - 1);//recusively call itself
+          pN(n - 1);//recusively call itself
         System.out.println(n); // here self work//
 
 

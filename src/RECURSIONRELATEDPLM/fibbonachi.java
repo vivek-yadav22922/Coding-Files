@@ -18,7 +18,7 @@ public class fibbonachi {
         System.out.println("enter the number");
         Scanner sc  = new Scanner(System.in);
         int n= sc.nextInt();
-        fib(5);
+        fib(n);
         for(int i=0; i<=n; i++){
             System.out.println(fib(i));
 
